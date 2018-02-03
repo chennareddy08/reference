@@ -1,0 +1,210 @@
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="/" code="200" description="Get URL" time="1462483785.02" duration="2.37776708603" />
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="002" type="link" result="Successful" url="/assets/4752cf34/bootstrap/css/bootstrap.min.css" code="200" description="" time="1462483787.4" duration="1.82977199554" />
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="003" type="link" result="Successful" url="/assets/4752cf34/css/bootstrap-yii.css" code="200" description="" time="1462483789.23" duration="1.28395199776" />
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="004" type="link" result="Successful" url="/assets/4752cf34/css/jquery-ui-bootstrap.css" code="200" description="" time="1462483790.51" duration="1.59149098396" />
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="005" type="link" result="Failure" url="/css/images/favicon.ico" code="404" description="" time="1462483787.4" duration="5.74455094337">
+  <headers>
+    <header name="content-length" value="7710" />
+    <header name="expires" value="Thu, 19 Nov 1981 08:52:00 GMT" />
+    <header name="server" value="Apache" />
+    <header name="connection" value="Close" />
+    <header name="pragma" value="no-cache" />
+    <header name="cache-control" value="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+    <header name="date" value="Thu, 05 May 2016 21:29:53 GMT" />
+    <header name="content-type" value="text/html; charset=UTF-8" />
+  </headers>
+  <body><![CDATA[
+<script>
+var loggedinEmail = null;
+</script>
+
+<script type="text/javascript">
+		window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+		d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+		_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+		$.src='//v2.zopim.com/?2msQSLfQqwaIVptfFs8hQhZBrIS8jOUI';z.t=+new Date;$.
+		type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+		</script>
+<!DOCTYPE html><html manifest="/app.appcache"><head xmlns="http://www.w3.org/1999/xhtml"><meta charset="UTF-8"></meta><link type="text/css" rel="stylesheet" href="//code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css"></link><script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script><script type="text/javascript" src="//code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script><title>Handstand | Fitness Experts and Trainers on Demand </title><meta charset="UTF-8"></meta><meta name="keywords" content="handstand, handstandapp, handstand app, handstand booking, handstand trainers. Handstand fitness experts, fitness experts, personal trainers, handstand personal trainers, trainers, handstand trainers, trainers los angeles, trainers santa monica, trainers beverly hills, trainers west hollywood, trainers brentwood, trainers downtown la, trainers venice"></meta><meta name="description" content="Handstand lets your sort, book, and pay for Fitness Experts and Trainers on Demand —whoever you are, wherever you want, and whenever you have time."></meta><meta name="viewport" content="width=device-width, initial-scale=1"></meta><meta name="apple-itunes-app" content="app-id=943258959"></meta><meta name="google-play-app" content="app-id=com.handstandapp.trainers"></meta><link rel="shortcut icon" type="image/x-icon" type="image/x-icon" href="/css/favicon.ico"></link><script type="text/javascript" src="/themes/client/js/jquery-1.11.0.min.js"></script><link type="text/css" rel="stylesheet" href="/themes/client/js/jquery.smartbanner/jquery.smartbanner.css"></link><script type="text/javascript" src="/themes/client/js/jquery.smartbanner/jquery.smartbanner.js"></script><link type="text/css" rel="stylesheet" href="/themes/client/css/style.css"></link><link type="text/css" rel="stylesheet" href="/themes/client/css/custom.css?version=171"></link><script type="text/javascript" src="/themes/client/js/functions.js?version=171"></script><script type="text/javascript" src="/themes/client/js/custom.js?version=171"></script><script type="text/javascript" src="/themes/client/js/fastclick.js?version=171"></script><script type="text/javascript" src="/themes/client/js/jquery.jscroll.min.js"></script><script type="text/javascript" src="/themes/client/js/jquery.validate.min.js"></script><script type="text/javascript" src="/js/mobile.js?version=171"></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script></head><body><div id="handstandsapp" data-role="page"><div data-role="content">
+<div class="spinner logo1 " ></div>
+
+
+
+<div id="offlineMessage">OOPS!!! You are offline... </div>
+<style>
+.online{
+display: none!important;
+z-index: -1;
+
+}
+.offline{
+display: block!important;
+z-index: 99999999999;
+
+}
+#offlineMessage{
+width: 100%;
+height: 100%;
+text-align: center;
+position: absolute;
+display: none;
+color:red;
+z-index: -1;
+
+margin-top: 100px;
+}
+</style>
+<script type="text/javascript">
+window.addEventListener('load', function() {
+var status = document.getElementById("offlineMessage");
+
+function updateOnlineStatus(event) {
+var condition = navigator.onLine ? "online" : "offline";
+if(condition=="offline")
+{showLoader();
+}else{
+	hideLoader();
+}
+status.className = condition;
+//status.innerHTML = condition.toUpperCase();
+
+//log.insertAdjacentHTML("beforeend", "Event: " + event.type + "; Status: " + condition);
+}
+
+window.addEventListener('online',  updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+});
+</script>
+
+
+
+<style type="text/css">
+.ui-content{
+	top:0px!important;
+	padding: 0px!important;
+}
+</style>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('require', 'ecommerce');
+
+  ga('create', 'UA-54900113-1', 'auto');
+  ga('send', 'pageview');
+
+</script><div id="content">
+	
+<div class="section-payment section-payment-alt">
+		<div class="form form-payment form-payment-alt">
+			<center><span class="payment-errors error"></span></center>
+				<div class="form-row">
+					<center><h1>Oops something went wrong</h1></center>
+
+					<p class="form-agree">Please contact info@handstandapp.com to report this issue.</p><!-- /.form-agree -->
+				</div><!-- /.form-row -->
+
+			<div class="section-actions">
+				<a href="/index.php" class="btn btn-green cc-save-btn" rel="external">Return Home <i class="ico-arrow-right"></i></a>
+			</div><!-- /.section-actions -->
+		</div><!-- /.form form-payment -->
+	</div>
+
+
+
+
+
+</div><!-- content -->
+<script>
+    $(function() {
+    FastClick.attach(document.body);
+	})
+	// var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
+
+	// $.smartbanner({
+	// 	'title': 'Handstand App',
+ //        'author': 'Workouts on Demand',
+ //        icon: 'http://a4.mzstatic.com/us/r30/Purple5/v4/9d/a4/2f/9da42f48-1175-1cec-4059-95b726dfa5a5/icon175x175.png',
+ //        
+ //        daysHidden: 0,
+ //        daysReminder: 0,
+ //        button: 'INSTALL', // Text on the install button
+
+	// 	});
+
+</script>
+
+	<!-- Google Code for Remarketing Tag -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var google_conversion_id = 961536390;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.googleadservices.com/pagead/conversion.js'>
+</script>
+<noscript>
+<div style='display:inline;''>
+<img height='1' width='1' style='border-style:none;' alt='' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/961536390/?value=0&amp;guid=ON&amp;script=0'/>
+</div>
+</noscript>
+
+
+<script type='text/javascript'>
+    var headID = document.getElementsByTagName('head')[0];
+    var newScript = document.createElement('script');
+    newScript.type = 'text/javascript';
+    newScript.async = true;
+    newScript.src = '//www.storeya.com/externalscript/couponpop/812D1C20?';
+    headID.appendChild(newScript);
+</script>
+
+
+	</div></div><div name="google-play-app" content="app-id=com.handstandapp.trainers" id="test">
+
+
+
+<div class="nav">
+	<ul>
+		<li>
+			<a href="/index.php/" rel="external">Home</a>
+		</li>
+		
+		<!-- Trainers menu -->
+		
+		<!-- Admin Menu-->
+		
+				<li>
+			<a href="/index.php/User/profile">Signup/Signin</a>
+		</li>
+			</ul>
+</div><!-- /.nav -->
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1487975898140627');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1487975898140627&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+</div></body></html>
+]]>
+  </body>
+</response>
+<testResult cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple"  time="1462483785.02" result="Failure" steps="1" duration="8.21738290787" connection_duration="7.08298206329" requests="5" pages="1" xmlrpc="0" redirects="0" images="0" links="3" traceback="Traceback (most recent call last):&#10;   File &quot;/Library/Python/2.7/site-packages/funkload-1.17.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 1019, in __call__&#10;    testMethod()&#10;   File &quot;/Users/chennareddy/smoketests/test_Simple.py&quot;, line 23, in test_simple&#10;    self.get(server_url, description='Get URL')&#10;   File &quot;/Library/Python/2.7/site-packages/funkload-1.17.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 434, in get&#10;    follow_redirect=follow_redirect)&#10;   File &quot;/Library/Python/2.7/site-packages/funkload-1.17.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 381, in _browse&#10;    raise self.failureException, str(error)&#10; AssertionError: ERROR: /css/images/favicon.ico&#10;HTTP Response 404: Not Found&#10;" />
